@@ -15,5 +15,7 @@ namespace WebApplication1.Data
         }
 
         public DbSet<WebApplication1.Models.Departament> Departament { get; set; }
+
+        public DbSet<WebApplication1.Models.Pokemon> Pokemon { get; set; }
     }
 }
